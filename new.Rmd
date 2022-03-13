@@ -1,0 +1,87 @@
+---
+title: "Научный опыт"
+author: "Волков Н.П."
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r xaringan-themer, include=FALSE}
+library(xaringanthemer)
+
+style_mono_light()
+# usethis::create_project("/Users/nikitavolkov")
+```
+
+```{r xaringanExtra, echo=FALSE}
+xaringanExtra::use_xaringan_extra(c("tile_view", "animate_css", "tachyons"))
+```
+
+```{r xaringan-tile-view, echo=FALSE}
+xaringanExtra::use_tile_view()
+```
+
+```{r xaringan-editable, echo=FALSE}
+xaringanExtra::use_editable(expires = 1)
+```
+
+```{r broadcast, echo=FALSE}
+xaringanExtra::use_broadcast()
+```
+
+
+# Зарубежные публикации
+
+Efficacy and safety of nivolumab combined with brentuximab vedotin after nivolumab monotherapy failure in patients with relapsed and refractory classic Hodgkin lymphoma. International Journal of Clinical Oncology
+2021
+
+Immunosuppressive Microenvironment and Efficacy of PD-1 Inhibitors in Relapsed/Refractory Classic Hodgkin Lymphoma: Checkpoint Molecules Landscape and Macrophage Populations. Cancers
+2021
+
+Nivolumab in Primary CNS Lymphoma and Primary Testicular Lymphoma with CNS Involvement: Single Center Experience. Blood
+2020
+
+Safety of Allogeneic Stem Cell Transplantation after PD-1 Blockade for Patients with Relapsed/Refractory Classical Hodgkin Lymphoma: Focus on Immune-Related Adverse Events. Blood
+2020
+
+A Phase 2 Study of Nivolumab Using a Fixed Dose of 40mg (Nivo40) in Patients With Relapsed/Refractory Hodgkin Lymphoma. HemaSphere
+2020
+
+
+---
+
+# Фармакоэкономика 
+
+First-Line Treatment of Mantle-Cell Lymphoma: Analysis of Effectiveness and Cost-Effectiveness. Clinical Oncohematology
+2018 
+
+Hodgkin’s Lymphoma: Analysis Results of Volgograd Regional Registry. Clinical oncohematology
+2019
+
+Analysis Results of the Regional Registry of Patients with Diffuse Large B-cell Lymphoma: Risk Factors and Chemo-Immunotherapy Issues. Clinical oncohematology
+2019 
+
+---
+
+# Популяционные и другие исследования
+
+Achievements and Challenges of Evidence-Based Medicine in Hematopoietic Stem Cell Transplantation: An Analysis of Single-Center and Multicenter Trials. Clinical oncohematology
+2020 
+
+Clinical efficiency and safety of tramadol and low-dose morphine to manage pain syndromes in children following chemotherapy and hematopoietic stem cell transplantation. Cellular Therapy and Transplantation
+2020
+
+Long-Term Outcomes of Nivolumab Therapy in Patients with Relapsed/Refractory Classic Hodgkin’s Lymphoma after High-Dose Chemotherapy with Autologous Hematopoietic Stem Cell Transplantation in Real Clinical Practice. Clinical oncohematology
+2020 
+
+Prognostic factors and effectiveness of the first-line therapy for chronic lymphocytic leukemia: results of 10-year follow-up. The Scientific Notes of the Pavlov University
+2021
+
+---
+
